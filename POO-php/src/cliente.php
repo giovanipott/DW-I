@@ -1,8 +1,5 @@
 <?php
 
-require_once "src/carrinho.php";
-require_once "src/produto.php";
-
 class Cliente
 {
     private string $email;

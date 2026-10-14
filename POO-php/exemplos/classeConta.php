@@ -1,5 +1,5 @@
 <?php
-require_once "POO-php/src/conta.php"
+require_once "./POO-php/src/conta.php"
 $conta = new Conta();
 
 $conta->depositar(1000);
