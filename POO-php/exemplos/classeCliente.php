@@ -1,6 +1,6 @@
 <?php
 
-require_once "./POO-php/src/cliente.php"
+require_once "/src/cliente.php";
 
 $cliente = new Cliente("Giovani", "giovani@email.com");
 
