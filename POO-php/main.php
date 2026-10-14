@@ -9,14 +9,14 @@ function testar(string $descricao, callable $teste): void
         $resultado = $teste();
 
         if ($resultado) {
-            echo "[PASSOU] " . $descricao . PHP_EOL;
+            echo "[PASSOU] " . $descricao . "<br>";
         } else {
-            echo "[FALHOU] " . $descricao . PHP_EOL;
+            echo "[FALHOU] " . $descricao . "<br>";
         }
     } catch (Throwable $e) {
         echo "[ERRO] " . $descricao
             . " - " . $e->getMessage()
-            . PHP_EOL;
+            . "<br>";
     }
 }
 
@@ -94,4 +94,4 @@ testar("Rejeitar produto com preço negativo", function () {
     }
 });
 
-echo PHP_EOL . "Testes finalizados." . PHP_EOL;
+echo "<br>" . "Testes finalizados." . "<br>";
