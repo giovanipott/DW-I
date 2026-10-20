@@ -1,3 +1,4 @@
+<?php
 class Conta
 {
     private float $saldo = 0.0;
